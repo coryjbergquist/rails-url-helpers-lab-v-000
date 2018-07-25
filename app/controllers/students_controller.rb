@@ -11,6 +11,8 @@ class StudentsController < ApplicationController
       @active = "This student is currently inactive."
     else
       @active = "This student is currently active."
+    end
+    
   end
 
   private
