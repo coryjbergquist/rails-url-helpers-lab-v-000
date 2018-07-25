@@ -21,6 +21,7 @@ class StudentsController < ApplicationController
     else
       @student.active = false
     end
+    @student.save
     redirect_to action: "show", id: params[:id]
   end
 
