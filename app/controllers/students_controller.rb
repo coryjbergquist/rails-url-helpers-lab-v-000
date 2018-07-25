@@ -6,7 +6,6 @@ class StudentsController < ApplicationController
   end
 
   def show
-    binding.pry
     self.set_student
   end
 
