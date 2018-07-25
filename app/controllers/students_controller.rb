@@ -14,6 +14,10 @@ class StudentsController < ApplicationController
     end
   end
 
+  def activeate_student_path
+    
+  end
+
   private
 
     def set_student
