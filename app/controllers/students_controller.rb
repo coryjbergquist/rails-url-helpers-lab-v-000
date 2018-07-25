@@ -14,6 +14,9 @@ class StudentsController < ApplicationController
     end
   end
 
+  def activate_student_path
+  end
+
 
   private
 
